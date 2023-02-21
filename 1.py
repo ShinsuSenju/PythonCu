@@ -1,25 +1,25 @@
-#Write a program to enter two numbers and perform all arithmetic operations.
+# #Write a program to enter two numbers and perform all arithmetic operations.
 
-a=int(input("Enter Number 1:"))
-b=int(input("Enter Number 2:"))
-print(a,"+",b"=",(a+b))
-print(a,"-",b"=",(a-b))
-print(a,"*",b"=",(a*b))
-print(a,"/",b"=",(a/b))
-print(a,"%",b"=",(a%b))
+# a=int(input("Enter Number 1:"))
+# b=int(input("Enter Number 2:"))
+# print(a,"+",b"=",(a+b))
+# print(a,"-",b"=",(a-b))
+# print(a,"*",b"=",(a*b))
+# print(a,"/",b"=",(a/b))
+# print(a,"%",b"=",(a%b))
 
-#Write a program to enter marks of five subjects and calculate total and percentage.
+# #Write a program to enter marks of five subjects and calculate total and percentage.
 
-print("Enter Marks Of 5 Subjects")
-a=int(input("Enter Marks In Subject 1:"))
-b=int(input("Enter Marks In Subject 2:"))
-c=int(input("Enter Marks In Subject 3:"))
-d=int(input("Enter Marks In Subject 4:"))
-e=int(input("Enter Marks In Subject 5:"))
-summ=a+b+c+d+e
-print("Total Marks:",summ)
-per=(summ/500)*100
-print("Percentage:",per)
+# print("Enter Marks Of 5 Subjects")
+# a=int(input("Enter Marks In Subject 1:"))
+# b=int(input("Enter Marks In Subject 2:"))
+# c=int(input("Enter Marks In Subject 3:"))
+# d=int(input("Enter Marks In Subject 4:"))
+# e=int(input("Enter Marks In Subject 5:"))
+# summ=a+b+c+d+e
+# print("Total Marks:",summ)
+# per=(summ/500)*100
+# print("Percentage:",per)
 
 #Write a program to enter length in centimeter and convert it into meter and kilometer, and also convert the same into equivalents.
 
