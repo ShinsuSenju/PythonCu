@@ -2,11 +2,11 @@
 
 a=int(input("Enter Number 1:"))
 b=int(input("Enter Number 2:"))
-print(a,"+",b"=",(a+b))
-print(a,"-",b"=",(a-b))
-print(a,"*",b"=",(a*b))
-print(a,"/",b"=",(a/b))
-print(a,"%",b"=",(a%b))
+print(a,"+",b,"=",(a+b))
+print(a,"-",b,"=",(a-b))
+print(a,"*",b,"=",(a*b))
+print(a,"/",b,"=",(a/b))
+print(a,"%",b,"=",(a%b))
 
 # #Write a program to enter marks of five subjects and calculate total and percentage.
 
