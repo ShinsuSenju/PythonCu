@@ -1,4 +1,4 @@
-# #Write a program to enter two numbers and perform all arithmetic operations.
+#Write a program to enter two numbers and perform all arithmetic operations.
 
 a=int(input("Enter Number 1:"))
 b=int(input("Enter Number 2:"))
@@ -8,7 +8,7 @@ print(a,"*",b,"=",(a*b))
 print(a,"/",b,"=",(a/b))
 print(a,"%",b,"=",(a%b))
 
-# #Write a program to enter marks of five subjects and calculate total and percentage.
+#Write a program to enter marks of five subjects and calculate total and percentage.
 
 print("Enter Marks Of 5 Subjects")
 a=int(input("Enter Marks In Subject 1:"))
@@ -26,12 +26,13 @@ print("Percentage:",per)
 
 cm = float(input("Enter length in centimeters: "))
 m =cm / 100
-km =cm / 100000
+km =cm / 100000 
+inches = cm / 2.54 
+ft = cm / 30.48 
+yd = cm / 91.44
 print("Length in meters: {:.2f} m".format(m))
 print("Length in kilometers: {:.2f} km".format(km))
-inches = cm / 2.54
-ft = cm / 30.48
-yd = cm / 91.44
+
 print("Length in inches: {:.2f} in".format(inches))
 print("Length in feet: {:.2f} ft".format(ft))
 print("Length in yards: {:.2f} yd".format(yd))
