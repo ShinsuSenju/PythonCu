@@ -1,4 +1,4 @@
-# Write a python program to calculate area of 1O different circles. Given the pie 22/7 and radius of the circles entered by user using Simple Funcbon , 
+#Write a python program to calculate area of 1O different circles. Given the pie 22/7 and radius of the circles entered by user using Simple Funcbon , 
 #Parameterized Function , Return Type with function and retum type With parameterized Functions .
 
 def areac(r):
