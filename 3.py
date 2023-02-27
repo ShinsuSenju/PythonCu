@@ -61,9 +61,14 @@ mul()
 #return type
 
 def multi():
-   for i in range(1,11):
-      print(j,"*",i,"=",j*i)
-   return 
+   table=""
+   for i in range(2,21):
+      for j in range(1,11):
+         table+=f"{i} x {j} = {i*j}\n"
+      table+="\n"
+   return table
+table=multi()
+print(table)   
 
    
    
