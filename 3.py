@@ -13,7 +13,7 @@ for i in range (1,11):
    areac()   
 
 #parameterized 
-def areac(r):
+def areac(r=0):
    pie=22/7
    area=pie*r*r
    print("Area Is:",round(area,2))
