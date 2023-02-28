@@ -43,7 +43,8 @@ def areac(r):
     return area
 
 for i in range (1,11):
-    a=int(input("Enter Radius:"))
+    r=int(input("Enter Radius:"))
+    a=areac(r)
     print("Area: ",a)
 
 #write a python program to print Multiplication tables from 2 to 20 whether table values entered by user ustng Simple Function , Parameterized Function . 
@@ -86,7 +87,7 @@ for i in range(2,21):
  #parameterized return type
 def mult(i,j):
     return i*j
-for i in range(1,21):
+for i in range(2,21):
     for j in range(1,11):
        res=mult(i,j)
        print(i,"*",j,"=",res)

@@ -34,7 +34,7 @@ b=int(input("Enter Number 2:"))
 c=int(input("Enter Number 3:"))
 if (a>b and a>c):
     print("Greatest is ",a)
-elif (b>a and b>c):
+elif (b>c):
     print("Greatest is ",b)
 else:    
     print("Greatest is ",c)
