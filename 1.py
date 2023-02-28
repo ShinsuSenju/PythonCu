@@ -30,7 +30,7 @@ km =cm / 100000
 inches = cm / 2.54 
 ft = cm / 30.48 
 yd = cm / 91.44
-print("Length in meters: {:.2f} m".format(m))
+print("Length in meters:",round(m,2),"m")
 print("Length in kilometers: {:.2f} km".format(km))
 
 print("Length in inches: {:.2f} in".format(inches))
