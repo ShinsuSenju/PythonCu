@@ -7,9 +7,9 @@ def ispal(s):
 def issym(s):
     n = len(s)
     if n % 2 == 0:
-        return s[:n//2] == s[n//2:][::-1]
+        return s[:n//2] == s[n//2:]
     else:
-        return s[:n//2] == s[n//2+1:][::-1]
+        return s[:n//2] == s[n//2+1:]
 
 string=input("Enter A String:")
 if(ispal(string)):
