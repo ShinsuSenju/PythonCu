@@ -15,9 +15,7 @@ string=input("Enter A String:")
 if(ispal(string)):
     print("Palindrome")
 if(issym(string)):
-    print("symmetrical")
-else:
-    print("None")    
+    print("symmetrical")  
 
 
 #2 Python program to find uncommon words from two Strings
