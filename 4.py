@@ -11,7 +11,7 @@ def issym(s):
     else:
         return s[:n//2] == s[n//2+1:][::-1]
 
-string=input("Enter A String")
+string=input("Enter A String:")
 if(ispal(string)):
     print("Palindrome")
 if(issym(string)):
@@ -21,8 +21,8 @@ else:
 
 
 #2 Python program to find uncommon words from two Strings
-str1=input("Enter String 1")
-str2=input("Enter String 2")
+str1=input("Enter String 1:")
+str2=input("Enter String 2:")
 s1 = str1.split()
 s2 = str2.split()
 uncommonWords = ''
