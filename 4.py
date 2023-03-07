@@ -49,4 +49,14 @@ else:
     print(string)    
 
 
-
+def check_symmetric(string):
+    n = len(string)
+    s1=''
+    s2=''
+    for i in string[:n//2]:
+      s1+=i
+    for i in string[n//2:]:
+        s2+=i
+    if s1==s2:
+        return True
+    return False    
