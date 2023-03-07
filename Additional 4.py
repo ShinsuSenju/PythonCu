@@ -59,7 +59,7 @@ print(string.startswith("hello"))
 
 # Method 1 without built-in function
 def startswith(string, prefix):
-    return string[:len(prefix)] == prefix
+    return string[:len(prefix)]==prefix
 
 print(startswith(string, "hello"))
 
@@ -70,12 +70,12 @@ print(string.upper())
 
 # Method 2 without built-in function
 def upper(string):
-    result = ""
+    result=""
     for char in string:
-        if ord(char) >= 97 and ord(char) <= 122:
-            result += chr(ord(char) - 32)
+        if ord(char)>=97 and ord(char)<=122:
+            result+=chr(ord(char)-32)
         else:
-            result += char
+            result+=char
     return result
 
 print(upper(string))
@@ -85,12 +85,12 @@ print(string.lower())
 
 # Method 3 without built-in function
 def lower(string):
-    result = ""
+    result=""
     for char in string:
-        if ord(char) >= 65 and ord(char) <= 90:
-            result += chr(ord(char) + 32)
+        if ord(char)>=65 and ord(char)<=90:
+            result+=chr(ord(char)+32)
         else:
-            result += char
+            result+=char
     return result
 
 print(lower(string))
@@ -100,10 +100,10 @@ print(string.count('l'))
 
 # Method 4 without built-in function
 def count(string, char):
-    result = 0
+    result=0
     for c in string:
-        if c == char:
-            result += 1
+        if c==char:
+            result+=1
     return result
 
 print(count(string, 'l'))
@@ -113,30 +113,29 @@ print(string.replace('o', 'a'))
 
 # Method 5 without built-in function
 def replace(string, old, new):
-    result = ""
+    result=""
     for char in string:
-        if char == old:
-            result += new
+        if char==old:
+            result+=new
         else:
-            result += char
+            result+=char
     return result
 
 print(replace(string, 'o', 'a'))
 
-# Method 6: join()
-words = ["Hello", "World"]
-print("-".join(words))
+# Method 6: len
+string="hello world"
+print(len(string))
 
 # Method 6 without built-in function
-def join(separator, words):
-    if len(words) == 0:
-        return ""
-    result = words[0]
-    for word in words[1:]:
-        result += separator + word
-    return result
+string="hello world"
+def lens(string):
+    j=0
+    for i in string:
+        j=j+1
+    return j
 
-print(join("-", words))
+print(lens(string))
 
 
 # Method 7: isalpha()
@@ -145,7 +144,7 @@ print(string.isalpha())
 # Method 7 without built-in function
 def isalpha(string):
     for char in string:
-        if not (ord(char) >= 65 and ord(char) <= 90) and not (ord(char) >= 97 and ord(char) <= 122):
+        if not (ord(char)>=65 and ord(char)<= 90) and not (ord(char)>=97 and ord(char)<=122):
             return False
     return True
 
@@ -157,7 +156,7 @@ print(string.isnumeric())
 # Method 8 without built-in function
 def isnumeric(string):
     for char in string:
-        if not (ord(char) >= 48 and ord(char) <= 57):
+        if not (ord(char)>=48 and ord(char)<=57):
             return False
     return True
 
@@ -169,7 +168,7 @@ print(string.index('w'))
 # Method 9 without built-in function
 def index(string, char):
     for i in range(len(string)):
-        if string[i] == char:
+        if string[i]==char:
             return i
     return -1
 
@@ -187,13 +186,13 @@ word=""
 result=[]
 i=0
 
-while i < len(string):
-    if string[i] == space:
+while i<len(string):
+    if string[i]==space:
         result.append(word)
-        word = ""
+        word=""
     else:
-        word += string[i]
-    i+= 1
+        word+=string[i]
+    i+=1
 
 result.append(word) 
 print(result)
